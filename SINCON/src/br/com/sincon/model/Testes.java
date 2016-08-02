@@ -13,8 +13,7 @@ public class Testes {
 		System.out.println("Conexão aberta!");
 		connection.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("Erro na Conexão "+e.getMessage());
 		}
 
 	}
